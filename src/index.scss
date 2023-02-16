@@ -1,0 +1,16 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  main {
+    margin-top: 20px;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

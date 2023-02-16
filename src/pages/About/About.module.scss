@@ -1,0 +1,39 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 1000px;
+  margin: 0 auto 150px auto;
+  h1 {
+    display: flex;
+  }
+  p {
+    font-weight: 300;
+    font-style: italic;
+  }
+}
+.block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.blockitem {
+  width: 200px;
+  height: 300px;
+  border: 2px solid black;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: rgba(14, 171, 243, 0.603);
+  p {
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0;
+  }
+  h4 {
+    font-weight: 700;
+  }
+}
