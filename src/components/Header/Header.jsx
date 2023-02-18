@@ -27,7 +27,7 @@ export const Header = () => {
             <Link to="/news">Новости</Link>
           </li>
           <li>
-            <Link to="/receipt">Рецепты</Link>
+            <Link to="/recipe">Рецепты</Link>
           </li>
         </ul>
         <div className={styles.right}>

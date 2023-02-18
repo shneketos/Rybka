@@ -1,0 +1,30 @@
+main {
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.recipe_block {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(3, 1fr);
+}
+.recipe_item {
+  border: 1px solid black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  width: 80%;
+  margin: 15px auto;
+  h3 {
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    font-weight: 800;
+  }
+  span {
+    font-weight: 300;
+    font-style: italic;
+  }
+}

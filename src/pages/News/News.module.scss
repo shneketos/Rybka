@@ -1,0 +1,23 @@
+main {
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+.news_block {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(3, 1fr);
+}
+.news_item {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  width: 80%;
+  margin: 15px auto;
+
+  p {
+    font-weight: 300;
+    font-style: italic;
+  }
+}

@@ -6,6 +6,9 @@ export const About = () => {
       <section className={styles.about}>
         <h1>О компании</h1>
         <h3>Магазин рыбка - лучший выбор</h3>
+        <p>Шинкевич Никита Андреевич</p>
+        <p>РПИС-01</p>
+
         <div className={styles.block}>
           <div className={styles.blockitem}>
             <p>1</p>

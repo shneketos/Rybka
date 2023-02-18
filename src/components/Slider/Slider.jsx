@@ -3,9 +3,10 @@ import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 import styles from "./Slider.module.scss";
-import img1 from "../../img/ryba1.jpg";
-import img2 from "../../img/ryba2.jpg";
-import img3 from "../../img/rybakin.jpg";
+import img1 from "./img/1.jpg";
+import img2 from "./img/2.jpg";
+import img3 from "./img/3.jpg";
+import img4 from "./img/rybakin.jpg";
 export const Slider = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
@@ -24,6 +25,9 @@ export const Slider = () => {
       </div>
       <div>
         <img src={img3} alt="img3" />
+      </div>
+      <div>
+        <img src={img4} alt="img4" />
       </div>
     </AutoplaySlider>
   );

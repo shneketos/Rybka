@@ -1,0 +1,119 @@
+[
+  {
+      "id": 0,
+      "img": "https://habrastorage.org/webt/ah/9j/og/ah9jogvjv-db3u5w_9f6yogcsv4.jpeg",
+      "name": "Форель охлаждённая",
+      "desc": "1 Кг.",
+      "price": 900,
+      "category": 2,
+	  "popular": 1
+    },
+	{
+      "id": 1,
+      "img": "https://habrastorage.org/webt/7t/gn/im/7tgnimx9foqppyccc9sapdrcwdq.jpeg",
+      "name": "Лангустины ",
+      "desc": "1 Кг.",
+      "price": 850,
+      "category": 3,
+	  "popular": 1
+    },
+	{
+      "id": 2,
+      "img": "https://habrastorage.org/webt/vm/3j/az/vm3jazli-cic7notsinwyc_wui0.jpeg",
+      "name": "Северная креветка",
+      "desc": "1 Кг.",
+      "price": 900,
+      "category": 3,
+	  "popular": 0
+    },
+	{
+      "id": 3,
+      "img": "https://habrastorage.org/webt/ga/lj/bj/galjbjlmgqrbtjeqodxwfp6zzv8.jpeg",
+      "name": "Кальмар дальневосточный",
+      "desc": "1 Кг.",
+      "price": 400,
+      "category": 3,
+	  "popular": 1
+    },
+	{
+      "id": 4,
+      "img": "https://habrastorage.org/webt/sh/c_/gk/shc_gkvthvqw3zc0ajxcfkl6tbk.jpeg",
+      "name": "Креветка королевская в панцире",
+      "desc": "1 Кг.",
+      "price": 1100,
+      "category": 3,
+	  "popular": 1
+    },
+	{
+      "id": 5,
+      "img": "https://habrastorage.org/webt/34/db/gf/34dbgftyytr9_vqxrf3uny8zena.jpeg",
+      "name": "Мидии на полураковинах",
+      "desc": "1 Кг.",
+      "price": 1000,
+      "category": 3,
+	  "popular": 0
+    },
+	{
+      "id": 6,
+      "img": "https://habrastorage.org/webt/ug/pu/nd/ugpundoeadgfjvbm1ai_hbelrdg.jpeg",
+      "name": "Кальмар кусок горячего копчения",
+      "desc": "1 Кг.",
+      "price": 700,
+      "category": 2,
+	  "popular": 0
+    },
+	{
+      "id": 7,
+      "img": "https://habrastorage.org/webt/l5/oe/il/l5oeilyxjbxhrhh2mt3800lsxze.jpeg",
+      "name": "Мойва холодного копчения",
+      "desc": "1 Кг.",
+      "price": 580,
+      "category": 2,
+	  "popular": 0
+    },
+	{
+      "id": 8,
+      "img": "https://habrastorage.org/webt/ir/vf/e9/irvfe96f_lnvdqqhqyrvwno9pp8.jpeg",
+      "name": "Корюшка вяленая",
+      "desc": "1 Кг.",
+      "price": 1050,
+      "category": 2,
+	  "popular": 0
+    },
+	{
+      "id": 9,
+      "img": "https://habrastorage.org/webt/ow/sx/wu/owsxwuibxlvserrhcb0mlxwta2g.jpeg",
+      "name": "Чехонь вяленая",
+      "desc": "1 Кг.",
+      "price": 500,
+      "category": 2,
+	  "popular": 0
+    },
+	{
+      "id": 10,
+      "img": "https://habrastorage.org/webt/mq/am/kv/mqamkvzuhjfe9sx-k9bwc8xukzy.jpeg",
+      "name": "Горбуша балык холодного копчения",
+      "desc": "1 Кг.",
+      "price": 670,
+      "category": 2,
+	  "popular": 1
+    },
+	{
+      "id": 11,
+      "img": "https://habrastorage.org/webt/ok/jp/o6/okjpo6jgarl6c6rukwaafgmz5ny.jpeg",
+      "name": "Вобла вяленая",
+      "desc": "1 Кг.",
+      "price": 350,
+      "category": 2,
+	  "popular": 0
+    },
+	{
+      "id": 12,
+      "img": "https://habrastorage.org/webt/vj/m8/vk/vjm8vkgef96ub5bezz0xikndxk8.jpeg",
+      "name": "Лещ вяленый",
+      "desc": "1 Кг.",
+      "price": 260,
+      "category": 2,
+	  "popular": 0
+    }
+	]
