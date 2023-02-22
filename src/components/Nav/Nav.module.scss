@@ -35,10 +35,17 @@ nav {
     justify-content: center;
   }
   input {
+    font-weight: 800;
+    border: 2px solid black;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
     width: 300px;
-    height: 20px;
+    height: 30px;
   }
   button {
+    border-left: none;
+    border-radius: 0px 5px 5px 0;
+    background: none;
     img {
       width: 16px;
       display: flex;

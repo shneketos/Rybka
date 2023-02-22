@@ -12,7 +12,7 @@ export const CartEmpty = () => {
       </p>
       <div className={styles.smile}>😕</div>
       <button className={styles.buttontomenu}>
-        <Link to="/catalog">Выбрать товар</Link>
+        <Link to="/">Выбрать товар</Link>
       </button>
     </section>
   );

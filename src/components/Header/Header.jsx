@@ -3,7 +3,19 @@ import { Link } from "react-router-dom";
 import Logo from "../../fish.svg";
 import Cart from "../../img/cart.svg";
 import styles from "./Header.module.scss";
+import { useSelector } from "react-redux";
+import { selectCart } from "../../redux/slices/cartSlice";
 export const Header = () => {
+  const { items, totalPrice } = useSelector(selectCart);
+  const totalCount = items.reduce((sum, item) => sum + item.count, 0);
+  const isMounted = React.useRef(false);
+  React.useEffect(() => {
+    if (isMounted.current) {
+      const json = JSON.stringify(items);
+      localStorage.setItem("cart", json);
+    }
+    isMounted.current = true;
+  }, [items]);
   return (
     <header>
       <div className={styles.container}>
@@ -34,7 +46,7 @@ export const Header = () => {
           <div>
             <Link to="/cart" className={styles.cart}>
               <img src={Cart} alt="cart"></img>
-              <span>10</span>
+              <span>{totalCount}</span>
             </Link>
           </div>
         </div>
